@@ -1,1 +1,2 @@
-print('well, well, well...')
+def run():
+    print('well, well, well...')
