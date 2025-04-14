@@ -10,6 +10,7 @@ def run():
     try:
         import maya.cmds as mc
         mc.scale(random_scale, random_scale, random_scale, mc.ls(sl=True))
+        mc.refresh(currentView=True)
     except:
         print('exception!')
         pass
