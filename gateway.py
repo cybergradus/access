@@ -1,3 +1,4 @@
+import maya.cmds as mc
 import random
 
 scale_min = 0.1
